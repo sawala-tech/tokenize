@@ -1,14 +1,15 @@
 const path = require("path")
 
 module.exports = {
-  mode: process.NODE_ENV ? process.NODE_ENV : "development",
+  mode: "production",
   devtool: "inline-source-map",
   entry: {
     main: "./src/index.ts",
   },
   output: {
     path: path.resolve(__dirname, "./dist"),
-    filename: "index.js", // <--- Will be compiled to this single file
+    filename: "index.js",
+    clean: true,
   },
   resolve: {
     extensions: [".ts", ".js"],
