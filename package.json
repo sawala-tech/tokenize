@@ -1,6 +1,6 @@
 {
   "name": "@sawala-tech/tokenize",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "A csrf-like token to verify and protect api from client-side",
   "main": "dist/index.js",
   "scripts": {
@@ -23,9 +23,6 @@
   },
   "homepage": "https://github.com/sawala-tech/tokenize#readme",
   "devDependencies": {
-    "ts-loader": "^9.2.8",
-    "typescript": "^4.6.2",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "typescript": "^4.6.2"
   }
 }
