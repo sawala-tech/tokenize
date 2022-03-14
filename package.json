@@ -1,6 +1,6 @@
 {
   "name": "@sawala-tech/tokenize",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "A csrf-like token to verify and protect api from client-side",
   "main": "dist/index.js",
   "scripts": {
